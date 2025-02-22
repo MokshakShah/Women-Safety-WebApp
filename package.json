@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/MokshakShah/Women-Safety-WebApp/issues"
   },
-  "homepage": "https://github.com/MokshakShah/Women-Safety-WebApp#readme",
+  "homepage": "https://MokshakShah.github.io/Women-Safety-WebApp",
   "description": "",
   "dependencies": {
     "react": "^19.0.0",
