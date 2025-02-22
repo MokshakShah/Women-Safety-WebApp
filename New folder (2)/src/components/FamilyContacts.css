@@ -1,0 +1,72 @@
+/* src/components/FamilyContacts.css */
+.family-contacts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .family-contacts li {
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .family-contacts li:last-child {
+    border-bottom: none;
+  }
+  
+
+  /* FamilyContacts.css */
+.family-contacts-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.family-contacts-container h3 {
+    margin-bottom: 15px;
+}
+
+.family-contacts-container form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.family-contacts-container input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.family-contacts-container button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.family-contacts-container button:hover {
+    background-color: #4cae4c;
+}
+
+.contacts-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+}

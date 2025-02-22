@@ -1,0 +1,33 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    width: 200px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #eee;
+    padding: 20px;
+    height: 100vh; /* Full viewport height */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #343a40;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  .sidebar a:hover {
+    background-color: #e9ecef;
+  }
+  

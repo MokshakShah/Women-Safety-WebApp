@@ -1,0 +1,19 @@
+/* src/components/SelfDefenseVideos.css */
+.self-defense-videos ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .self-defense-videos li {
+    margin-bottom: 5px;
+  }
+  
+  .self-defense-videos a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .self-defense-videos a:hover {
+    text-decoration: underline;
+  }
+  

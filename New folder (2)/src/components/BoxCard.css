@@ -1,0 +1,16 @@
+/* src/components/BoxCard.css */
+.box-card {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box-card .MuiCardContent-root { /* Target Material UI card content */
+    padding: 16px;
+  }
+  
+  .box-card h5 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  

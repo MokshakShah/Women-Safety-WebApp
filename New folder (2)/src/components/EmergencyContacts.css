@@ -1,0 +1,31 @@
+/* src/components/EmergencyContacts.css */
+.emergency-contacts {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .emergency-contacts h3 {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .emergency-contacts p {
+    margin: 0;
+  }
+  /* EmergencyContacts.css */
+.phone-button {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #28a745; /* Example: Green */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .phone-button:hover {
+    background-color: #218838;
+  }
+  
